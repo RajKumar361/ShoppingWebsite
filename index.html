@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - Online Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>ShopEasy</h1>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </header>   
+
+    <!-- Product Grid -->
+    <div class="products">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&auto=format" alt="Wireless Headphones">
+            <h3>Wireless Headphones</h3>
+            <p>$99.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&auto=format" alt="Smart Watch">
+            <h3>Smart Watch</h3>
+            <p>$149.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=500&auto=format" alt="Bluetooth Speaker">
+            <h3>Bluetooth Speaker</h3>
+            <p>$59.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=500&auto=format" alt="Phone Case">
+            <h3>Phone Case</h3>
+            <p>$19.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar">
+        <h2>Your Cart</h2>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+            <strong>Total: $<span>0.00</span></strong>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
